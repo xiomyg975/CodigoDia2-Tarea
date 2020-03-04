@@ -1,0 +1,101 @@
+<section>
+    <h2>Formulario - Tarea</h2>
+    <article>
+        <table border ="1">
+            <thead>
+                <tr>
+                    <th>Descripcion</th>
+                    <th>Hola</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><strong>Nombre</strong></td>
+                <td><input type="text" placeholder = "Ingresa tu nombre "></td>
+            </tr>
+            <tr>
+                <td><strong>Apellido</strong></td>
+                <td><input type="text" placeholder = "Ingresa tu apellido" ></td>
+            </tr>
+            <tr>
+                <td><strong>DNI</strong></td>
+                <td><input type = "number"></td>
+            </tr>
+            <tr>
+                <td><strong>Correo</strong></td>
+                <td><input type ="email"></td>
+            </tr>
+            <tr>
+                <td><strong>Telefono</strong></td>
+                <td><input type = "number"></td>
+            </tr>
+            <tr>
+                <td><strong>Contraseña</strong></td>
+                <td><input type ="password"></td>
+            </tr>
+            <tr>
+                <td>Ciudad de Origen</td>
+              
+                <td>
+                    <select>
+                        <!-- option tiene que ir detras de un select -->
+                        <option
+                            value ="1">Ilo
+                        </option>
+                        <option
+                            value = "2"> Arequipa
+                        </option>
+                        <option
+                            value = "3">Cuzco
+                        </option>
+                        <option
+                            value = "4">Puno
+                        </option>
+                        <option
+                            value = "5">Piura
+                        </option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><strong>Estado civil </strong></td>
+                <td>
+                    <input type="radio" name="Estado civil" id="Casado">
+                    <label for="Casado">Casado</label>
+                    <input type="radio" name="Estado civil" id="Sotero">
+                    <label for="Soltero">Soltero</label>
+                    <input type="radio" name="Estado civil" id="Viudo">
+                    <label for="Viudo">Viudo</label>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Descripcion</strong></td>
+                <td><textarea cols ="30" rows = "10"></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>Color Favorito </strong></td>
+                <td><input type ="color"></td>
+            </tr>
+            <tr>
+                <td><strong>Fecha de nacimiento</strong></td>
+                <td> <input type = "date"></td>
+                
+            </tr>
+            <tr>
+                <td><strong>CV</strong></td>
+                <td>
+                    <input type = "file">
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Enviar</strong></td>
+                <td>
+                        <input type="reset" value="resetear">
+                        <input type="submit" value="enviar">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </article>
+</section>
